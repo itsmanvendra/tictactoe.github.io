@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Nunito:wght@700&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("tictacteo.jpg");
+    background-repeat: repeat;
+    z-index: -1;
+}
+.text-center{
+    text-align: center;
+}
+hr{
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+#board{
+    width: 360px;
+    height: 360px;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    width: 117px;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+}
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+.vertical-line{
+    border-right: 3px solid black;
+}
+.winner{
+    background-color: lightgrey;
+    color: red;
+}
