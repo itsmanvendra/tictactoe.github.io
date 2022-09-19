@@ -26,6 +26,15 @@ hr{
     display: flex;
     flex-wrap: wrap;
 }
+.refresh{
+    width: 62px;
+    height: 20px;
+    margin: 50px auto;
+    padding: 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
 .tile{
     width: 117px;
     height: 117px;
